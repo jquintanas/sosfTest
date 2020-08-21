@@ -1,6 +1,6 @@
 # language: en
 
-Feature: Search games by name
+Feature: Search games by name, rating , study | students are Franchesca Man Ging - Danny Rios - Brenda Bermello - Jonathan Quintana - Karla Burgos 
 
   @gamesByName
   Scenario: Filter games that contain the word 'The' in their name
@@ -32,6 +32,8 @@ Feature: Search games by name
       When the user search games by name
       Then 0 games will match
       And the following message is displayed: No game with the specified name was found.
+
+
 
   @gamesByRating
   Scenario: Find games by type of audience with M rating

@@ -8,6 +8,7 @@ def before_scenario(context, scenario):
 
 @given("a set of games")
 def step_impl(context):
+	
 	game_list = []
 
 	for row in context.table:
@@ -16,7 +17,7 @@ def step_impl(context):
 		idiomas = []
 		game = Game(row['NAME'], row['RELEASE DATE'], row['DEVELOPER'], row['RATE'])
 		game_list.append(game)
-
+	context.nameStudent = 'Danny'
 	context.games = game_list
 
 @given('the user enters the name: {name}')
