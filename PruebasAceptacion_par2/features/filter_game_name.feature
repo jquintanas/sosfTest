@@ -1,6 +1,6 @@
 # language: en
 
-Feature: Search games by name, rating , study | students are Franchesca Man Ging - Danny Rios - Brenda Bermello - Jonathan Quintana - Karla Burgos 
+Feature: Search games by name, rating , study | students are Francesca Man Ging - Danny Rios - Brenda Bermello - Jonathan Quintana - Karla Burgos 
 
   @gamesByName
   Scenario: Filter games that contain the word 'The' in their name
