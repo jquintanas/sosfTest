@@ -43,7 +43,7 @@ if __name__ == '__main__':
 		print(x)
 	print("-"*20)
 
-	result, msj = get_game_developer(game_list, "Rockstar")
+	result, msj = get_game_developer(game_list, "Tencent")
 	print(msj)
 	for x in result:
 		print(x)
